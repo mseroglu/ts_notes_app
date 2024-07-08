@@ -7,6 +7,7 @@ import { useLocalStorage } from "@uidotdev/usehooks"
 import { Note, NoteData, Tag } from "./types_"
 import { v4 } from "uuid"
 import Layout from "./components/Layout"
+import Undefined from "./pages/Undefined"
 
 
 const App = () => {
@@ -55,6 +56,7 @@ const App = () => {
               createTag={createTag}
               availableTags={tags} />} />
           </Route>
+          <Route path="*" element={<Undefined />} />
 
         </Routes>
       </BrowserRouter>
