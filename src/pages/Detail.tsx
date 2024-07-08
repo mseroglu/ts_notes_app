@@ -28,7 +28,7 @@ const Detail = ({ delNote }:Props) => {
         <Col>
           <Stack direction="horizontal" gap={2}>
 
-            <Link to="/">
+            <Link to="..">
               <Button variant="secondary">Geri</Button>
             </Link>
 

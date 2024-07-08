@@ -1,6 +1,6 @@
 # React + TypeScript + Vite
 
-## usin libraries
+## using libraries
 - react-router-dom
 - react-bootstarp 
 - bootstrap 
