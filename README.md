@@ -9,3 +9,6 @@
 - uuid
 - @types/uuid
 
+### Önizleme
+![/public/note-app.gif](/public/note-app.gif)
+

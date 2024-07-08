@@ -27,9 +27,11 @@ const Home = ({ notes, availableTags }: Props) => {
 
 
   return (
-    <div className="container mx-auto py-5">
-      <Stack direction="horizontal" className="justify-content-between">
-        <h1>Notlar</h1>
+    <div className="container mx-auto py-4">
+      <Stack direction="horizontal" className="justify-content-between mb-5">
+        <h1 className="d-flex gap-3">
+          <img width={48} src="notes.png" alt="notes" />
+          Notlar</h1>
 
         <Link to={"/new"}>
           <Button>Oluştur</Button>
