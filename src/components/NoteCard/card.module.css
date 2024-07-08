@@ -1,0 +1,12 @@
+.background{
+    background-color: rgb(158, 224, 158);
+    box-shadow: 0 0 20px rgb(68, 154, 42);
+}
+.note_card{
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.note_card:hover{
+    transform: translate(5px, -5px);
+    filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.3));
+}
